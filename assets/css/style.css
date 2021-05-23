@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Playfair', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background-image: url('https://i.pinimg.com/originals/e5/c3/ac/e5c3ac40913c92b72570dd2c0612ec50.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    margin: 125px auto;
+    background-image: url('https://i.pinimg.com/originals/e5/c3/ac/e5c3ac40913c92b72570dd2c0612ec50.png');
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h1 {
+    color: rgb(0, 0, 0);
+}
+
+.calculadora {
+    width: 400PX
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    background: rgb(255, 255, 255)
+}
+
+.btn:hover {
+    background-color: rgb(220, 116, 138);
+}
